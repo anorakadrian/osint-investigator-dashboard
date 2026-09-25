@@ -1,4 +1,15 @@
-# OSINT Investigator Dashboard — Business Canvas Analyst
+## Connection to BUSI2035
+
+**BUSI2035 brief — quant-fintech consultant view**
+
+For HKBU **BUSI2035 Entrepreneurship and Innovative Thinking**, this dashboard is a working method for *opportunity recognition and evaluation*, not a finished venture. It helps a student—or a junior quant-fintech associate acting as consultant—turn a vague “fintech somewhere” idea into a geography-specific Business Model Canvas and a short list of assumptions that still need field tests.
+
+The map ranks countries on three *observed* public series: internet-user share (digital attention), WGI regulatory quality / rule of law / stability (public-source climate), and listed-firm count plus market cap (market-structure depth). Those are screening factors a buy-side or venture associate would use before diligence—not TAM, not Similarweb traffic, not legal clearance.
+
+Clicking a market opens two layers the course actually grades: evidence (raw World Bank / WGI figure, year, code) and a rule-derived nine-block canvas plus value proposition. The canvas is labelled **hypothesis**. A quant assistant’s job here is to say: “Hong Kong or Singapore scores high on listed-market rails and digital reach; the proposition is identity or payments infrastructure; the untested claim is willingness to pay.” Then write the experiment for the pitch and written plan—customer, method, threshold, decision rule.
+
+That keeps BUSI2035 honest: novel value and an action plan, without pretending secondary data already proved product-market fit.
+# OSINT Investigator Dashboard — Business Canvas Analyst Descriptoin
 
 Single-file choropleth that scores countries from **public internet APIs**, then maps those observations onto Business Model Canvas hypotheses with a **deterministic rule table**.
 
